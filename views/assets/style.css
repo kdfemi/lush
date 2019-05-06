@@ -1,3 +1,35 @@
 *{
     font-family: 'Lato', sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+#main-container{
+    background-color: rgb(245, 238, 238);
+    width: 100vw;
+    height: 100vh;
+}
+.nav-bar{
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    height: 60px;
+    background-color: black;
+    color: white;
+    border-bottom: 1px solid red;   
+    padding: 15px;
+}
+h2#logo{
+    font-size: 32px;
+    flex: 1;
+    font-family: 'Anton', sans-serif';
+}
+.menu{
+    display: flex;
+}
+.menu li{
+    list-style-type: none;
+    margin: 10px;
+    font-size: 20px;
+
 }
