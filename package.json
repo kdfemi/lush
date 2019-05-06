@@ -1,0 +1,22 @@
+{
+  "name": "lush",
+  "version": "1.0.0",
+  "description": "website that shows the best shoes",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "koladefemi@gmail.com"
+  },
+  "keywords": [
+    "shoes",
+    "show"
+  ],
+  "author": "kolade femi",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.4"
+  }
+}
