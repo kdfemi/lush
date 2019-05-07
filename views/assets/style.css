@@ -3,22 +3,23 @@
     padding: 0;
     margin: 0;
     outline: none;
-    box-sizing: border-box;
+    box-sizing:border-box;
+    
 }
 #main-container{
     background-color: rgb(245, 238, 238);
+    height: 99vh;
     width: 100vw;
-    height: 100vh;
 }
 .nav-bar{
     display: flex;
     flex-direction: row;
     width: 100vw;
-    height: 60px;
+    height: 10%;
     background-color: black;
     color: white;
-    border-bottom: 1px solid red;   
-    padding: 15px;
+    border-bottom: 2px solid red;   
+    padding: 6px;
     
 }
 h2#logo{
@@ -28,6 +29,7 @@ h2#logo{
     cursor: default;
 }
 .menu{
+    display: flex;
     flex: 1;
 }
 .menu li{
@@ -35,6 +37,7 @@ h2#logo{
     margin: 10px;
     font-size: 20px;
     cursor: default;
+    flex: 1;
 
 }
 #content{
@@ -44,6 +47,18 @@ h2#logo{
     margin: 0 auto;
     padding: 30px;
     display: flex;
+}
+.shoe{
+    width: 100%;
+    display: flex;
+    flex: 1;
+}
+.image{
+    flex:1;
+}
+.details{
+    flex: 4;
+    margin-left: 20px
 }
 
 @media screen and (max-width:479px){
